@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: toRem(40) 6.4vw 0 6.4vw;
+
+    .menu {
+        display: none;
+    }
+}

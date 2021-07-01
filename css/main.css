@@ -19,4 +19,41 @@ a {
 ol, ul {
   list-style: none;
 }
+
+.burger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.burger .bar1,
+.burger .bar2,
+.burger .bar3 {
+  background-color: #FFFFFF;
+  height: 2px;
+  margin: 6px;
+  transition: 0.4s;
+  width: 35px;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 6.4vw 0 6.4vw;
+}
+
+nav .menu {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
