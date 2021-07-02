@@ -82,6 +82,18 @@ p {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.btn {
+  border: 1px solid black;
+  color: black;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.3125rem;
+  line-height: 0.875rem;
+  opacity: 1;
+  padding: 0.8125rem 2rem;
+  text-transform: uppercase;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -174,5 +186,6 @@ header h1 {
 
 .creations .fisheye {
   background-image: url("../images/fisheye-mobile.jpg");
+  margin-bottom: 2.125rem;
 }
 /*# sourceMappingURL=main.css.map */
