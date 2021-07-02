@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400&display=swap');
+
+
+h1,
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2,
+p {
+    color: $primary-txt-color;
+    margin: 0 12.8vw;
+    text-align: center;
+}
+
+
+h1 {
+    color: $header-txt-color;
+    font-size: toRem(40);
+    line-height: toRem(38);
+}
+
+h2 {
+    font-size: toRem(32);
+    line-height: toRem(32);
+}
+
+a,
+p {
+    font-family: 'Alata', sans-serif; 
+    font-size: toRem(15);
+    font-weight: 400;
+    line-height: toRem(25);
+    opacity: 0.5;
+}

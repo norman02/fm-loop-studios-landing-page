@@ -1,7 +1,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: toRem(40) 6.4vw 0 6.4vw;
+    margin: 0 6.4vw;
+    padding-top: toRem(40);
 
     .menu {
         display: none;
