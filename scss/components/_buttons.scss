@@ -1,0 +1,11 @@
+.btn {
+    border: 1px solid black;
+    color: $primary-txt-color;
+    font-size: toRem(14); 
+    font-weight: 400;
+    letter-spacing: toRem(5);
+    line-height: toRem(14);
+    opacity: 1;
+    padding: toRem(13) toRem(32);
+    text-transform: uppercase;
+}
