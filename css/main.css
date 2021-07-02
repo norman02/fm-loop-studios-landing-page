@@ -118,6 +118,42 @@ header h1 {
   padding: 1.625rem 1.5rem 1rem 1.5rem;
 }
 
+footer {
+  background-color: black;
+  margin-top: 6rem;
+  padding-bottom: 4.125rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  opacity: 1;
+}
+
+footer p {
+  color: white;
+}
+
+footer .logo {
+  margin-bottom: 2.125rem;
+  margin-top: 3.5rem;
+}
+
+footer li {
+  margin-bottom: 1.625rem;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3.375rem auto;
+  width: 9.0625rem;
+}
+
+footer .social li {
+  margin: 0;
+}
+
 .home {
   background-color: white;
   text-align: center;
