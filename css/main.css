@@ -92,4 +92,17 @@ nav {
 nav .menu {
   display: none;
 }
+
+header {
+  background-image: url("../images/header-bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  border: 2px solid white;
+  display: inline-block;
+  margin: 10.1875rem 6.4vw 14.1875rem 6.4vw;
+  padding: 1.625rem 1.5rem 1rem 1.5rem;
+}
 /*# sourceMappingURL=main.css.map */

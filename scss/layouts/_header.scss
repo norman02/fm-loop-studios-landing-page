@@ -1,0 +1,12 @@
+header {
+    background-image: url('../images/header-bg-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        border: 2px solid white;
+        display: inline-block;
+        margin: toRem(163) 6.4vw toRem(227) 6.4vw;
+        padding: toRem(26) toRem(24) toRem(16) toRem(24);
+    }
+}
