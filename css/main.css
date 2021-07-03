@@ -105,6 +105,24 @@ nav .menu {
   display: none;
 }
 
+.change h1 {
+  display: none;
+}
+
+.change .menu {
+  display: block;
+  position: absolute;
+  top: 13.9375rem;
+}
+
+.change .menu a {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 3.125rem;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
 header {
   background-image: url("../images/header-bg-mobile.jpg");
   background-repeat: no-repeat;
@@ -116,6 +134,12 @@ header h1 {
   display: inline-block;
   margin: 10.1875rem 6.4vw 14.1875rem 6.4vw;
   padding: 1.625rem 1.5rem 1rem 1.5rem;
+}
+
+.change {
+  background-color: black;
+  background-image: none;
+  height: 100vh;
 }
 
 footer {

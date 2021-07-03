@@ -8,3 +8,24 @@ nav {
         display: none;
     }
 }
+
+.change {
+
+    h1 {
+        display: none;
+    }
+
+    .menu {
+        
+        display: block;
+        position: absolute;
+        top: toRem(223);
+        a {
+            color: white;
+            font-size: toRem(24);
+            line-height: toRem(50);
+            opacity: 1;
+            text-transform: uppercase;
+        }
+    }
+}
