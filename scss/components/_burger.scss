@@ -2,6 +2,10 @@
     display: inline-block;
     cursor: pointer;
 
+    @include media-lg {
+        display: none;
+    }
+
     .bar1,
     .bar2,
     .bar3 {

@@ -60,6 +60,12 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) {
+  .burger {
+    display: none;
+  }
+}
+
 .burger .bar1,
 .burger .bar2,
 .burger .bar3 {
@@ -148,24 +154,6 @@ footer a:focus::after {
   width: 24px;
 }
 
-header a {
-  width: auto;
-}
-
-header a:hover::after {
-  left: 0;
-  width: 100%;
-}
-
-header a:focus {
-  outline: none;
-}
-
-header a:focus::after {
-  left: 0;
-  width: 100%;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -173,8 +161,38 @@ nav {
   padding-top: 2.5rem;
 }
 
+@media screen and (min-width: 1000px) {
+  nav {
+    margin: 0 11.42vw;
+    padding-top: 4rem;
+  }
+}
+
+nav .logo {
+  width: 9rem;
+}
+
+@media screen and (min-width: 1000px) {
+  nav .logo {
+    height: 2rem;
+    width: 12rem;
+  }
+}
+
 nav .menu {
   display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  nav .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 26.22vw;
+  }
+  nav .menu a {
+    color: white;
+    opacity: 1;
+  }
 }
 
 .change h1 {

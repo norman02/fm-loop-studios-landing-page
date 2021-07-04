@@ -36,28 +36,3 @@ footer {
         
     }
 }
-
-header {
-    a {
-        width: auto;
-    
-        &:hover
-        {
-            &::after {
-                left: 0;
-                width: 100%;
-            }
-        }
-    
-        &:focus {
-            outline: none;
-    
-            &::after {
-                left: 0;
-                width: 100%;
-            }
-        }
-    
-        
-    }
-}
