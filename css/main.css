@@ -41,6 +41,13 @@ h1 {
   line-height: 2.375rem;
 }
 
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 4.375rem;
+  }
+}
+
 h2 {
   font-size: 2rem;
   line-height: 2rem;
@@ -222,11 +229,30 @@ header {
   background-size: cover;
 }
 
+@media screen and (min-width: 500px) {
+  header {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("../images/header-bg-img-desktop.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+  }
+}
+
 header h1 {
   border: 2px solid white;
   display: inline-block;
   margin: 10.1875rem 6.4vw 14.1875rem 6.4vw;
+  max-width: 21.875rem;
   padding: 1.625rem 1.5rem 1rem 1.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  header h1 {
+    margin: 8.125rem 11.41vw 9.125rem 11.41vw;
+    max-width: 40.625rem;
+    padding: 2.5rem;
+    padding-bottom: 1.625rem;
+  }
 }
 
 .change {
