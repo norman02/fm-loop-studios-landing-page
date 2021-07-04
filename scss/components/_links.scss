@@ -1,0 +1,63 @@
+header,
+footer {
+    a {
+        display: inline-block;
+        padding-bottom: toRem(18);
+        position: relative;
+        width: 54px;
+    
+        &:hover
+        {
+            &::after {
+                background-color: white;
+                bottom: 0;
+                content: "";
+                height: 2px;
+                left: 15px;
+                position: absolute;
+                width: 24px;
+            }
+        }
+    
+        &:focus {
+            outline: none;
+    
+            &::after {
+                background-color: white;
+                bottom: 0;
+                content: "";
+                height: 2px;
+                left: 15px;
+                position: absolute;
+                width: 24px;
+            }
+        }
+    
+        
+    }
+}
+
+header {
+    a {
+        width: auto;
+    
+        &:hover
+        {
+            &::after {
+                left: 0;
+                width: 100%;
+            }
+        }
+    
+        &:focus {
+            outline: none;
+    
+            &::after {
+                left: 0;
+                width: 100%;
+            }
+        }
+    
+        
+    }
+}

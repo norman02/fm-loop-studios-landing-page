@@ -8,4 +8,13 @@
     opacity: 1;
     padding: toRem(13) toRem(32);
     text-transform: uppercase;
+    transition: 1.2s;
+
+    &:hover,
+    &:focus
+     {
+        background-color: black;
+        color: white;
+        outline: none;
+    }
 }

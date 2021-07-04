@@ -10,7 +10,19 @@
         margin: 6px;
         transition: 0.4s;
         width: 35px;
-    }  
+    } 
+
+    &:hover {
+        outline: none;
+        transition: 0.4s;
+        transform: scale(1.5);
+    }
+    
+    &:focus {
+        outline: none;
+        transition: 0.4s;
+        transform: scale(1.5);
+    }
 }
 
 .change {

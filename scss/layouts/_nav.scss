@@ -23,9 +23,13 @@ nav {
         a {
             color: white;
             font-size: toRem(24);
-            line-height: toRem(50);
+            
             opacity: 1;
             text-transform: uppercase;
+        }
+
+        li {
+            margin-bottom: toRem(50);
         }
     }
 }

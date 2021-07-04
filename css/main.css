@@ -70,6 +70,18 @@ p {
   width: 35px;
 }
 
+.burger:hover {
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.5);
+}
+
+.burger:focus {
+  outline: none;
+  transition: 0.4s;
+  transform: scale(1.5);
+}
+
 .change .bar1 {
   transform: rotate(-45deg) translate(-4px, 4px);
 }
@@ -92,6 +104,66 @@ p {
   opacity: 1;
   padding: 0.8125rem 2rem;
   text-transform: uppercase;
+  transition: 1.2s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+header a,
+footer a {
+  display: inline-block;
+  padding-bottom: 1.125rem;
+  position: relative;
+  width: 54px;
+}
+
+header a:hover::after,
+footer a:hover::after {
+  background-color: white;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 15px;
+  position: absolute;
+  width: 24px;
+}
+
+header a:focus,
+footer a:focus {
+  outline: none;
+}
+
+header a:focus::after,
+footer a:focus::after {
+  background-color: white;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 15px;
+  position: absolute;
+  width: 24px;
+}
+
+header a {
+  width: auto;
+}
+
+header a:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+header a:focus {
+  outline: none;
+}
+
+header a:focus::after {
+  left: 0;
+  width: 100%;
 }
 
 nav {
@@ -118,9 +190,12 @@ nav .menu {
 .change .menu a {
   color: white;
   font-size: 1.5rem;
-  line-height: 3.125rem;
   opacity: 1;
   text-transform: uppercase;
+}
+
+.change .menu li {
+  margin-bottom: 3.125rem;
 }
 
 header {
