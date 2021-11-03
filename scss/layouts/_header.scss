@@ -1,0 +1,12 @@
+header {
+    background-image: url('../images/mobile/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: pixelToRem(40) pixelToRem(24) pixelToRem(227) pixelToRem(24);
+
+    h1 {
+        border: 2px solid white;
+        margin-top: pixelToRem(187);
+        padding: pixelToRem(34) pixelToRem(24);
+    }
+}
