@@ -183,4 +183,32 @@ nav {
 .creations .btn {
   margin-top: 2.125rem;
 }
+
+footer {
+  background-color: black;
+  margin-top: 6rem;
+  padding-top: 3.5rem;
+  text-align: center;
+}
+
+footer .logo {
+  margin-bottom: 2rem;
+}
+
+footer .links li {
+  margin-bottom: 1.625rem;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3.5rem 4rem 0 4rem;
+}
+
+footer .copy {
+  color: white;
+  margin-top: 1rem;
+  opacity: 50%;
+  padding-bottom: 4rem;
+}
 /*# sourceMappingURL=main.css.map */

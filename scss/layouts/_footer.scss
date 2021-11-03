@@ -1,0 +1,29 @@
+footer {
+    background-color: black;
+    margin-top: pixelToRem(96);
+    padding-top: pixelToRem(56);
+    text-align: center;
+
+    .logo {
+        margin-bottom: pixelToRem(32);
+    }
+
+    .links {
+        li {
+            margin-bottom: pixelToRem(26);
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        margin: pixelToRem(56) pixelToRem(64) 0 pixelToRem(64);
+    }
+
+    .copy {
+        color: white;
+        margin-top: pixelToRem(16);
+        opacity: 50%;
+        padding-bottom: pixelToRem(64);
+    }
+}
