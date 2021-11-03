@@ -122,6 +122,15 @@ p {
   background-image: url("../../images/mobile/image-fisheye.jpg");
 }
 
+.btn {
+  color: black;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 0.8125rem 0;
+  width: 9.8125rem;
+}
+
 header {
   background-image: url("../images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
@@ -169,5 +178,9 @@ nav {
 
 .creations h2 {
   margin-bottom: 3rem;
+}
+
+.creations .btn {
+  margin-top: 2.125rem;
 }
 /*# sourceMappingURL=main.css.map */
