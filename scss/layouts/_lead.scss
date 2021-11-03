@@ -1,0 +1,22 @@
+.lead {
+
+    margin: pixelToRem(90) pixelToRem(24) pixelToRem(0) pixelToRem(24) ;
+
+    .image-container {
+        background-image: url('../images/mobile/image-interactive.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: pixelToRem(224);
+        margin: 0 auto;
+        width: pixelToRem(327);
+    }
+
+    h2 {
+        margin-top: pixelToRem(48);
+    }
+
+    p {
+        margin-top: pixelToRem(16);
+        margin: pixelToRem(16) pixelToRem(24) 0 pixelToRem(24);
+    }
+}
