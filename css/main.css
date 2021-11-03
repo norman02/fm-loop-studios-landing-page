@@ -21,10 +21,6 @@ ol, ul {
   list-style: none;
 }
 
-body {
-  background-color: grey;
-}
-
 a {
   font-size: 0.9375rem;
   line-height: 1.5625rem;

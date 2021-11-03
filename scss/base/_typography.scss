@@ -1,0 +1,55 @@
+//Typography
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+a {
+    font-size: pixelToRem(15);
+    line-height: pixelToRem(25);
+}
+
+a,
+h1,
+h3 {
+    color: $title-txt-color;
+}
+
+a,
+p {
+    font-family: 'Alata', sans-serif;
+    font-size: pixelToRem(15);
+    line-height: pixelToRem(25);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+a,
+h2, 
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: pixelToRem(40);
+    line-height: pixelToRem(38);
+}
+
+h2 {
+    color: $header-txt-color;
+    font-size: pixelToRem(32);
+    line-height: pixelToRem(32);
+}
+
+h3 {
+    font-size: pixelToRem(24);
+    line-height: pixelToRem(24);
+    max-width: 80px;
+}
+
+p {
+    color: $primary-text-color;
+    opacity: 50%;
+}
