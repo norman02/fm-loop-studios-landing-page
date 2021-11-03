@@ -66,11 +66,108 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  max-width: 80px;
 }
 
 p {
   color: black;
   opacity: 50%;
+}
+
+.card {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  padding: 3.25rem 1.25rem;
+  max-width: 7.8125rem;
+}
+
+.deep {
+  background-image: url("../../images/mobile/image-deep-earth.jpg");
+}
+
+.night {
+  background-image: url("../../images/mobile/image-night-arcade.jpg");
+}
+
+.soccer {
+  background-image: url("../../images/mobile/image-soccer-team.jpg");
+}
+
+.grid {
+  background-image: url("../../images/mobile/image-grid.jpg");
+}
+
+.grid h3 {
+  max-width: 3.5625rem;
+}
+
+.above {
+  background-image: url("../../images/mobile/image-from-above.jpg");
+}
+
+.pocket {
+  background-image: url("../../images/mobile/image-pocket-borealis.jpg");
+}
+
+.curiosity {
+  background-image: url("../../images/mobile/image-curiosity.jpg");
+}
+
+.fisheye {
+  background-image: url("../../images/mobile/image-fisheye.jpg");
+}
+
+header {
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2.5rem 1.5rem 14.1875rem 1.5rem;
+}
+
+header h1 {
+  border: 2px solid white;
+  margin-top: 11.6875rem;
+  padding: 2.125rem 1.5rem;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lead {
+  margin: 5.625rem 1.5rem 0rem 1.5rem;
+}
+
+.lead .image-container {
+  background-image: url("../images/mobile/image-interactive.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 14rem;
+  margin: 0 auto;
+  width: 20.4375rem;
+}
+
+.lead h2 {
+  margin-top: 3rem;
+}
+
+.lead p {
+  margin-top: 1rem;
+  margin: 1rem 1.5rem 0 1.5rem;
+}
+
+.creations {
+  margin: 6.625rem 1.5rem 0 1.5rem;
+}
+
+.creations h2 {
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
