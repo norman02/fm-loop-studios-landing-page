@@ -1,0 +1,51 @@
+.card {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: pixelToRem(120);
+    margin-bottom: pixelToRem(24);
+    
+
+    h3 {
+        padding: pixelToRem(52) pixelToRem(20);
+        max-width: pixelToRem(125);
+    }  
+}
+
+.deep {
+    background-image: url('../../images/mobile/image-deep-earth.jpg');
+}
+
+.night {
+    background-image: url('../../images/mobile/image-night-arcade.jpg');
+}
+
+.soccer {
+    background-image: url('../../images/mobile/image-soccer-team.jpg');
+}
+
+
+.grid {
+
+    background-image: url('../../images/mobile/image-grid.jpg');
+
+    h3 {
+        max-width: pixelToRem(57);
+    }
+}
+
+.above {
+    background-image: url('../../images/mobile/image-from-above.jpg');
+}
+
+.pocket {
+    background-image: url('../../images/mobile/image-pocket-borealis.jpg');
+}
+
+.curiosity {
+    background-image: url('../../images/mobile/image-curiosity.jpg');
+}
+
+.fisheye {
+    background-image: url('../../images/mobile/image-fisheye.jpg');
+}
