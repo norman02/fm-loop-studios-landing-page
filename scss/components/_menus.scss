@@ -1,0 +1,39 @@
+.menu {
+    display: none;
+    background-color: black;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+
+    .img-container,
+    ul {
+        margin: 0 pixelToRem(24);
+    }
+
+    .img-container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: pixelToRem(40);
+    }
+
+    ul {
+        margin-top: pixelToRem(160);
+
+        li {
+            margin-bottom: pixelToRem(25);
+        }
+    }
+
+    a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: pixelToRem(24);
+        text-transform: uppercase;
+    }   
+}
+
+.active {
+    display: block;
+}
