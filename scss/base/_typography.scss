@@ -35,17 +35,32 @@ p {
 h1 {
     font-size: pixelToRem(40);
     line-height: pixelToRem(38);
+
+    @include media-lg {
+        font-size: pixelToRem(72);
+        line-height: pixelToRem(70);
+    }
 }
 
 h2 {
     color: $header-txt-color;
     font-size: pixelToRem(32);
     line-height: pixelToRem(32);
+
+    @include media-lg {
+        font-size: pixelToRem(48);
+        line-height: pixelTorem(48);
+    }
 }
 
 h3 {
     font-size: pixelToRem(24);
     line-height: pixelToRem(24);
+
+    @include media-lg {
+        font-size: pixelToRem(32);
+        line-height: pixelToRem(32);
+    }
 }
 
 p {
