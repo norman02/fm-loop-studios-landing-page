@@ -7,6 +7,14 @@
     top: 0;
     width: 100vw;
 
+    @include media-lg {
+        display: inline;
+        background-color: transparent;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+
     .img-container,
     ul {
         margin: 0 pixelToRem(24);
@@ -17,13 +25,27 @@
         display: flex;
         justify-content: space-between;
         margin-top: pixelToRem(40);
+
+        @include media-lg {
+            display: none;
+        }
     }
 
     ul {
         margin-top: pixelToRem(160);
 
+        @include media-lg {
+            display: flex;
+            margin: 0;
+        }
+
         li {
             margin-bottom: pixelToRem(25);
+            
+            @include media-lg {
+                margin: 0;
+                margin-left: pixelToRem(35);
+            }
         }
     }
 
@@ -31,6 +53,12 @@
         font-family: 'Josefin Sans', sans-serif;
         font-size: pixelToRem(24);
         text-transform: uppercase;
+
+        @include media-lg {
+            font-family: 'Atla', sans-serif;
+            font-size: pixelToRem(15);
+            text-transform: none;
+        }
     }   
 }
 
@@ -41,4 +69,8 @@
 .burger,
 .close {
     cursor: pointer;
+
+    @include media-lg {
+        display: none;
+    }
 }

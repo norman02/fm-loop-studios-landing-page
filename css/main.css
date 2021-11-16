@@ -141,6 +141,16 @@ p {
   width: 100vw;
 }
 
+@media screen and (min-width: 1000px) {
+  .menu {
+    display: inline;
+    background-color: transparent;
+    height: auto;
+    position: relative;
+    width: auto;
+  }
+}
+
 .menu .img-container,
 .menu ul {
   margin: 0 1.5rem;
@@ -153,18 +163,46 @@ p {
   margin-top: 2.5rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .menu .img-container {
+    display: none;
+  }
+}
+
 .menu ul {
   margin-top: 10rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu ul {
+    display: flex;
+    margin: 0;
+  }
 }
 
 .menu ul li {
   margin-bottom: 1.5625rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .menu ul li {
+    margin: 0;
+    margin-left: 2.1875rem;
+  }
+}
+
 .menu a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu a {
+    font-family: 'Atla', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: none;
+  }
 }
 
 .active {
@@ -174,6 +212,13 @@ p {
 .burger,
 .close {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .burger,
+  .close {
+    display: none;
+  }
 }
 
 header {
