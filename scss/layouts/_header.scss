@@ -4,9 +4,17 @@ header {
     background-size: cover;
     padding: pixelToRem(40) pixelToRem(24) pixelToRem(227) pixelToRem(24);
 
+    @include media-lg {
+        padding: pixelToRem(64) pixelToRem(165) pixelToRem(146) pixelToRem(166); 
+    }
+
     h1 {
         border: 2px solid white;
         margin-top: pixelToRem(187);
         padding: pixelToRem(34) pixelToRem(24);
+
+        @include media-lg {
+            max-width: 650px;
+        }
     }
 }
